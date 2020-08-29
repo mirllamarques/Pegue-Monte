@@ -1,0 +1,24 @@
+header{
+    background-image: url(/assets/Borda.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+#logo{
+    margin-top: 33px;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+}
+.name{
+    padding-top: 50px;
+}
+.slogan{
+    padding-left: 300px;
+    padding-bottom: 10px;
+}

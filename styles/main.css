@@ -1,0 +1,36 @@
+:root{
+    --title-color: #313f4e;
+    --details-color: #ff00a9;
+    --border-color: #fcb2f1;
+    --background-color: #f1c9cc;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Courier Prime', monospace;
+    color: var(--title-color);
+    background-color: var(--background-color);
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 90px;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    color: white;
+}
+h3{
+    font-size: 30px;
+    color: white;
+}
+h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: white;
+}
