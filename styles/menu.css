@@ -58,12 +58,15 @@ nav ul li a{
 }
 nav ul li:hover a{
     color: white;
+    transition: 0.2s;
 }
 nav ul ul{
     background-color: #ff00a9;
     border-radius: 0px;
     position: absolute;
     top: 100%;
+    border-radius: 10px;
+    padding-bottom: 10px;
 }
 nav ul ul li{
     float: none;
@@ -75,4 +78,5 @@ nav ul ul li a{
 }
 nav ul ul li a:hover {
     background: var(--details-color);
+    transition: 0.4s;
 }
